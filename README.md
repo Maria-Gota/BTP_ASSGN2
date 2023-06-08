@@ -53,7 +53,8 @@ After downloading and installing all the required software for the project to wo
 
 1. Open the terminal and navigate to the client project root directory
 2. Run the command `npm install` to ensure that all the dependencies inside the project are installed
-3. Start the application by running the command `expo start` , which will display a QR code and a list of available expo commands:
+3. In file EAMDFE-master/App/constants/Endpoints.js, on line 1 change the value of BASE_URL to your IP address
+4. Start the application by running the command `expo start` , which will display a QR code and a list of available expo commands:
 	* If you want to run the application on a physical device do the following:
 		* iOS: open the Camera app and scan the QR code from the terminal
 			* this will open the Expo Go application on your device
